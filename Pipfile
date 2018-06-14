@@ -5,9 +5,10 @@ name = "pypi"
 
 [packages]
 flask = "*"
-fabric = "*"
 gunicorn = "*"
 uwsgi = "*"
+"fabric3" = "*"
+flask-socketio = "*"
 
 [dev-packages]
 
