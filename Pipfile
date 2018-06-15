@@ -9,6 +9,10 @@ gunicorn = "*"
 uwsgi = "*"
 "fabric3" = "*"
 flask-socketio = "*"
+eventlet = "*"
+gevent = "*"
+aiohttp = "*"
+python-socketio = "*"
 
 [dev-packages]
 
