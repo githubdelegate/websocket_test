@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 from flask_socketio import SocketIO, emit
 
 app = Flask(__name__)
@@ -8,8 +8,9 @@ socketio = SocketIO(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
-
+    # return render_template('index.html')
+    d = {'error': 0,'result':['zy', 'nj']}
+    return jsonify(d)
 
 @socketio.on('client_event')
 def client_msg(msg):
