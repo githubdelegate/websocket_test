@@ -12,7 +12,7 @@ def deploy():
         run('pwd')
         run('git pull')
         run('.venv/bin/gunicorn stop')
-        run('.venv/bin/gunicorn --reload -b 127.0.0.1:8000 app:app')
+        run('.venv/bin/gunicorn --reload -b 127.0.0.1:8000 whereareyou:app')
 
 
 
