@@ -11,9 +11,9 @@ def deploy():
     with cd(project_folder):
         run('pwd')
         run('git pull')
-        run('pipenv shell')
-        run('.venv/bin/gunicorn stop')
-        run('.venv/bin/gunicorn --reload -b 127.0.0.1:8000 whereareyou:app')
+        # run('pipenv shell')
+        # run('.venv/bin/gunicorn stop')
+        # run('.venv/bin/gunicorn --reload -b 127.0.0.1:8000 whereareyou:app')
 
 
 
