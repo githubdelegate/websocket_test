@@ -13,6 +13,8 @@ eventlet = "*"
 gevent = "*"
 aiohttp = "*"
 python-socketio = "*"
+flask-sqlalchemy = "*"
+cymysql = "*"
 
 [dev-packages]
 

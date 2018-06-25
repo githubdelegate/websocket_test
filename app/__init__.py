@@ -4,6 +4,8 @@ from flask_socketio import SocketIO, emit, send
 
 socketio = SocketIO()
 
+
+
 def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'secret!'
