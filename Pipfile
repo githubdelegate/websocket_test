@@ -16,6 +16,7 @@ python-socketio = "*"
 flask-sqlalchemy = "*"
 cymysql = "*"
 pymysql = "*"
+flask-script = "*"
 
 [dev-packages]
 
