@@ -15,6 +15,7 @@ aiohttp = "*"
 python-socketio = "*"
 flask-sqlalchemy = "*"
 cymysql = "*"
+pymysql = "*"
 
 [dev-packages]
 
