@@ -17,9 +17,9 @@ from app import db
 # db = SQLAlchemy(app)
 # """
 
-class Base(db.Model):
-    addtime = db.Column(db.DateTime, index=True, default=datetime.now)  # 注册时间
-
+# class Base(db.Model):
+    # __abstract__ = True
+    # addtime = db.Column(db.DateTime, index=True, default=datetime.now)  # 注册时间
 
 # 会员
 class User(db.Model):
